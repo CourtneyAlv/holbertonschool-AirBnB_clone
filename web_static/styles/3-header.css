@@ -1,15 +1,8 @@
 header {
+    background-image: url ("../images/logo.png") no-repeat;
     background-color: white;
+    background-position: 20px;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
-    align-items: center;
-    display: flex;
-}
-
-header .logo {
-    width: 142px;
-    height: 60px;
-    background: url ("../images/logo.png") no-repeat center;
-    padding-left: 20px;
 }
