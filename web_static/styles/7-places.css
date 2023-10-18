@@ -1,1 +1,40 @@
+.places{
+    border: 0;
+    display: table;
+    direction: ltr;
+    padding-left: 30px;
+  }
+  
+  .places h1{
+    font-size: 30px;
+  }
 
+  .articles h2{
+    font-size: 30px;
+    margin-top: -2px;
+  }
+  
+  .places_name{
+    padding-top: 1px;
+    margin-bottom: -9px;
+  }
+  
+  .places article{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  
+    .articles{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
