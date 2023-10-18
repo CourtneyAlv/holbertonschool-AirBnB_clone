@@ -1,1 +1,127 @@
+.places{
+    border: 0;
+    display: table;
+    direction: ltr;
+    padding-left: 30px;
+  }
+  
+  .places h1{
+    font-size: 30px;
+  }
+
+  .articles h2{
+    font-size: 30px;
+    margin-top: -2px;
+  }
+  
+  .places_name{
+    padding-top: 1px;
+    margin-bottom: -9px;
+  }
+  
+  .places article{
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 30px;
+  
+  }
+  
+    .articles{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  
+
+  .price_by_night{
+    color: #FF5A5F;
+    border: solid 1px #FF5A5F;
+    border-radius: 4%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    top: 10px;
+    }
+    
+    
+    .prices{
+      margin-top: -1px;
+    }
+    .price_title{
+      display: flex;
+    }
+    
+    .information{
+      height: 80px;
+      border-top: solid 1px #DDDDDD;
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    
+    .max_guest{
+      width: 100px;
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .guest_icon{
+      height: inherit;
+      width: inherit;
+      background: url("images/icon_group.png");
+      background-repeat: no-repeat;
+      margin-left: 35px;
+    }
+    
+    .bath_icon{
+      height: 54px;
+      width: 90px;
+      background: url("images/icon_bath.png");
+      background-repeat: no-repeat;
+      margin-left: 35px;
+    }
+    
+    .rooms_icon{
+      height: 54px;
+      width: 100px;
+      background: url("images/icon_bed.png");
+      background-repeat: no-repeat;
+      margin-left: 43px;
+    }
+    
+    
+    .num_guest h2{
+      font-size: 14px;
+    }
+    
+    .rooms_number h2{
+      font-size: 14px;
+    }
+    
+    .bath_number h2{
+      font-size: 14px;
+    }
+    
+    .user{
+      font-size: 14px;
+      text-align: left;
+    }
+    .description{
+      text-align: left;
+      font-size: 14px;
+    }
+
 
