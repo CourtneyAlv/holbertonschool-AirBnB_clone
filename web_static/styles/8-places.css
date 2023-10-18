@@ -81,7 +81,7 @@
     .guest_icon{
       height: inherit;
       width: inherit;
-      background: url("images/icon_group.png");
+      background: url("../images/icon_group.png");
       background-repeat: no-repeat;
       margin-left: 35px;
     }
@@ -89,7 +89,7 @@
     .bath_icon{
       height: 54px;
       width: 90px;
-      background: url("images/icon_bath.png");
+      background: url("../images/icon_bath.png");
       background-repeat: no-repeat;
       margin-left: 35px;
     }
@@ -97,7 +97,7 @@
     .rooms_icon{
       height: 54px;
       width: 100px;
-      background: url("images/icon_bed.png");
+      background: url("../images/icon_bed.png");
       background-repeat: no-repeat;
       margin-left: 43px;
     }
